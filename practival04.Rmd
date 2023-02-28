@@ -1,0 +1,8 @@
+---
+title: "practical4"
+output: github_document
+---
+```{r}
+library(ggplot2)
+data(mtcars)
+ggplot(mtcars, aes(x = mpg, y = wt)) + geom_point()
